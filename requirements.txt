@@ -1,0 +1,2 @@
+--pre nxt-python
+pynput==1.7.6
