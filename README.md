@@ -12,6 +12,8 @@ To start the remote just run
 ```bash
 python remote.py
 ```
+It will just send every key as a string to the Mailbox 0 as default.
+On the NXT a program can read these commands from the Mailbox.
 
 ## Known Issues
 The Bluetooth connection is not working with my setup of nxt-python under Windows.
