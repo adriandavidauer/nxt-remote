@@ -1,2 +1,5 @@
 --pre nxt-python
 pynput==1.7.6
+tensorflow
+pillow
+opencv-python
