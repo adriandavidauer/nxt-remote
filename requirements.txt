@@ -1,2 +1,4 @@
---pre nxt-python
+# nxt-python --install-option='--pre'   # I have no idea how to properly install using --pre in requirements.txt
 pynput==1.7.6
+pyusb
+pybluez
