@@ -18,8 +18,18 @@ should not give any errors after installing all dependencies.
 To start the remote just run
 
 ```bash
-python remote.py
+python remote.py KEYBOARD
 ```
+for KEYBOARD mode
+
+
+or
+```bash
+python remote.py CAM --model_path <PATH_TO_MODEL> --labels <PATH_LABEL>
+```
+for CAM mode.
+
+
 It will just send every key as a string to the Mailbox 0 as default.
 On the NXT a program can read these commands from the Mailbox.
 
