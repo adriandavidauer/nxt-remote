@@ -17,7 +17,7 @@ class Remote():
         # wait for keystrokes
         with Listener(on_press=self.on_keystroke, on_release=self.on_release) as listener:
             listener.join()
-        
+
     def connect(self, **kwargs):
         if 'host' in kwargs:
             host = kwargs['host']
@@ -39,13 +39,13 @@ class Remote():
             print(e)
         except AttributeError as e:
             print('Remote is not connected')
-            #TODO: add some logic to reconnect - maybe a specific button or combi like ctrl+r
-
+            # TODO: add some logic to reconnect - maybe a specific button or combi like ctrl+r
 
     def on_release(self, key):
         if key == Key.esc:
             # Stop listener
             return False
+
 
 if __name__ == '__main__':
     remote = Remote()
