@@ -2,3 +2,6 @@
 pynput==1.7.6
 pyusb
 pybluez
+tensorflow
+pillow
+opencv-python
