@@ -38,14 +38,22 @@ Models for CAM mode can be trained using [teachable machine](https://teachablema
 1. Choose `Image Project`
 2. Choose `Standard Image Model`
 3. Train your Model
-  3.1. Choose Number of classes and set their class names
-  3.2. Create or upload image samples for every class
-  3.3. Select `Train Model`
+
+    3.1. Choose Number of classes and set their class names
+    
+    3.2. Create or upload image samples for every class
+    
+    3.3. Select `Train Model`
+
 4. Export Model
-  4.1. Choose `Export Model`
-  4.2. Choose `Tensorflow`
-  4.3. Choose `Keras`
-  4.4. Choose `Download my Model`
+
+    4.1. Choose `Export Model`
+    
+    4.2. Choose `Tensorflow`
+    
+    4.3. Choose `Keras`
+    
+    4.4. Choose `Download my Model`
 
 
 ## Known Issues
