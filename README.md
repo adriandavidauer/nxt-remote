@@ -33,5 +33,20 @@ for CAM mode.
 It will just send every key(in KEYBOARD mode) or the class name(in CAM mode) as a string to the Mailbox 0 as default.
 On the NXT a program can read these commands from the Mailbox.
 
+## Models for CAM mode
+Models for CAM mode can be trained using [teachable machine](https://teachablemachine.withgoogle.com/train)
+1. Choose `Image Project`
+2. Choose `Standard Image Model`
+3. Train your Model
+  3.1. Choose Number of classes and set their class names
+  3.2. Create or upload image samples for every class
+  3.3. Select `Train Model`
+4. Export Model
+  4.1. Choose `Export Model`
+  4.2. Choose `Tensorflow`
+  4.3. Choose `Keras`
+  4.4. Choose `Download my Model`
+
+
 ## Known Issues
 The Bluetooth connection is not working with my setup of nxt-python under Windows.
