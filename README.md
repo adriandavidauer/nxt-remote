@@ -4,6 +4,13 @@ This remote can be used with the Keyboard or a Webcam and an Imagemodel trained 
 
 ## Install
 Follow the [install guide of nxt-python](https://github.com/schodet/nxt-python#requirements) and make sure to properly install *PyUSB* and *PyBluez*. 
+
+After installing all dependencies running
+```bash
+pip install -r requirements.txt
+```
+should not give any errors after installing all dependencies.
+
 ### Gotchas on Windows
 I needed to put the **libusb-1.0.dll** in the *system32* folder to make *PyUSB* work.
 
@@ -12,12 +19,6 @@ On Ubuntu you need to install `libbluetooth-dev` with
 ```bash
 sudo apt-get install libbluetooth-dev
 ```
-
-After installing all dependencies running
-```bash
-pip install -r requirements.txt
-```
-should not give any errors after installing all dependencies.
 
 ## Usage
 To start the remote just run
