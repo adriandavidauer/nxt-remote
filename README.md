@@ -1,14 +1,19 @@
 # nxt-remote
 A python remote for the LEGO NXT using [nxt-python](https://github.com/schodet/nxt-python). This project was developed using python 3.7 on Windows.
+This remote can be used with the Keyboard or a Webcam and an Imagemodel trained with [teachable machine](https://teachablemachine.withgoogle.com/train)
 
 ## Install
 Follow the [install guide of nxt-python](https://github.com/schodet/nxt-python#requirements) and make sure to properly install *PyUSB* and *PyBluez*. 
+### Gotchas on Windows
 I needed to put the **libusb-1.0.dll** in the *system32* folder to make *PyUSB* work.
+
+### Gotchas on Ubuntu 
 On Ubuntu you need to install `libbluetooth-dev` with 
 ```bash
 sudo apt-get install libbluetooth-dev
 ```
-Running
+
+After installing all dependencies running
 ```bash
 pip install -r requirements.txt
 ```
